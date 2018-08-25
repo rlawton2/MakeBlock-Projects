@@ -68,7 +68,7 @@ drawTemp = new unsigned char[16]{0,0,60,98,94,94,60,1,1,60,94,94,98,60,0,0};
     memcpy(drawBuffer,drawTemp,16);
     free(drawTemp);
     ledMx.drawBitmap(0,0,16,drawBuffer);
-    -delay(5)
+    _delay(5);
 // heart eyes
 drawTemp = new unsigned char[16]{0,0,48,72,36,72,48,1,1,48,72,36,72,48,0,0};
     memcpy(drawBuffer,drawTemp,16);
